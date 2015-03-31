@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "RoundImageVIew"
+  s.name             = "RoundImageView"
   s.version          = "1.0.0"
   s.summary          = "A derived UIImageView class to render a Rounded image with optional border."
   s.homepage         = "https://github.com/ravero/RoundImageView"
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = '**/*.swift'
+  s.source_files = 'RoundImageView/**/*.swift'
 end
