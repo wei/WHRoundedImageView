@@ -8,18 +8,18 @@
 
 import UIKit
 
-@IBDesignable class RoundImageView: UIImageView {
+@IBDesignable public class RoundImageView: UIImageView {
 
     //
     // MARK: - Properties
     
-    @IBInspectable var borderWidth: CGFloat = 0.0 {
+    @IBInspectable public var borderWidth: CGFloat = 0.0 {
         didSet {
             self.layer.borderWidth = borderWidth
         }
     }
     
-    @IBInspectable var borderColor: UIColor = UIColor.blackColor() {
+    @IBInspectable public var borderColor: UIColor = UIColor.blackColor() {
         didSet {
             self.layer.borderColor = borderColor.CGColor
         }
@@ -28,22 +28,22 @@ import UIKit
     //
     // MARK: - Constructors
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
     
-    override init(image: UIImage!) {
+    override public init(image: UIImage!) {
         super.init(image: image)
         setup()
     }
     
-    override init(image: UIImage!, highlightedImage: UIImage?) {
+    override public init(image: UIImage!, highlightedImage: UIImage?) {
         super.init(image: image, highlightedImage: highlightedImage)
         setup()
     }
@@ -56,7 +56,7 @@ import UIKit
         self.layer.masksToBounds = true
     }
     
-    override func prepareForInterfaceBuilder() {
+    override public func prepareForInterfaceBuilder() {
         setup()
     }
 
