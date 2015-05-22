@@ -25,7 +25,7 @@ You can copy ```WHRoundedImageView.swift``` directly into your project.
     - ```borderColor```  _Default: blackColor_
 
 ## Author
-**Wei He** _wei@weispot.com_
+**Wei He** _whe@weispot.com_
 
 ## Credits
 Fork of [ravero/RoundImageView](https://github.com/ravero/RoundImageView)
