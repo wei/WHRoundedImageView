@@ -1,4 +1,4 @@
-# WHRoundedImageView
+# WHRoundedImageView ![WHRoundedImageView](https://img.shields.io/cocoapods/v/WHRoundedImageView.svg)
 
 WHRoundedImageView is a plain simple _swift_ component that extends a UIImageView. It allows you to add Radius and Border to an image directly in Interface Builder.
 
