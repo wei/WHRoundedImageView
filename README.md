@@ -2,7 +2,7 @@
 
 WHRoundedImageView is a plain simple _swift_ component that extends a UIImageView. It allows you to add Radius and Border to an image directly in Interface Builder.
 
-*Live preview is fully supported, so you can preview in Interface Builder.*
+*Live preview is fully supported.*
 
 ![WHRoundedImageView](/WHRoundedImageViewDemo.gif?raw=true "WHRoundedImageView")
 
