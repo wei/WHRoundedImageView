@@ -17,7 +17,7 @@ You can copy ```WHRoundedImageView.swift``` directly into your project.
 ## Usage
 1. Set class to **RoundImageView** in _Identity Inspector_, and use it as a normal UIImageView. 
 2. Set properties below:
-    - ```radiusRatio```  _Default: 0.0_
+    - ```radiusRatio```  _Default: 0.5 (Fully rounded for square images)_
     - ```borderWidth```  _Default: 0.0_
     - ```borderColor```  _Default: blackColor_
 
