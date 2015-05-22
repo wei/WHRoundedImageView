@@ -1,16 +1,16 @@
 //
-//  RoundImageView.swift
-//  Quotes
+//  WHRoundedImageView.swift
+//  WHRoundedImageView
 //
-//  Created by Rafael Veronezi on 3/31/15.
-//  Copyright (c) 2015 Ravero. All rights reserved.
+//  Created by Wei He <whe@weispot.com> on 5/22/15.
+//  Copyright (c) 2015 Wei He. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-@IBDesignable public class RoundImageView: UIImageView {
-
-    //
+@IBDesignable public class WHRoundedImageView: UIImageView {
+    
+    
     // MARK: - Properties
     
     @IBInspectable public var borderWidth: CGFloat = 0.0 {
@@ -25,7 +25,7 @@ import UIKit
         }
     }
     
-    //
+    
     // MARK: - Constructors
     
     required public init(coder aDecoder: NSCoder) {
@@ -48,7 +48,7 @@ import UIKit
         setup()
     }
     
-    //
+    
     // MARK: - Support Methods
     
     func setup() {
@@ -59,5 +59,4 @@ import UIKit
     override public func prepareForInterfaceBuilder() {
         setup()
     }
-
 }

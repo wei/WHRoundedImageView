@@ -1,15 +1,15 @@
 //
-//  RoundImageViewTests.swift
-//  RoundImageViewTests
+//  WHRoundedImageViewTests.swift
+//  WHRoundedImageViewTests
 //
-//  Created by Rafael Veronezi on 3/31/15.
-//  Copyright (c) 2015 Ravero. All rights reserved.
+//  Created by Wei He <whe@weispot.com> on 5/22/15.
+//  Copyright (c) 2015 Wei He. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class RoundImageViewTests: XCTestCase {
+class WHRoundedImageViewTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

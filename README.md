@@ -1,22 +1,25 @@
-# RoundImageView
-RoundImageView is a plain simple component that extends a UIImageView, in order to render it fully rounded.
+# WHRoundedImageView
+WHRoundedImageView is a plain simple _swift_ component that extends a UIImageView. It allows you to add Radius and Border to an image directly in Interface Builder.
+
+*Live preview is fully supported, so you can preview in Interface Builder.*
 
 ## Installation
-RoundImageView is available thourh CocoaPods, just add the reference to your Podfile:
+##### *For iOS 8.0 +*
+RoundImageView is available through CocoaPods, just add the reference to your Podfile:
 
 ```
-pod 'RoundImageView', '~> 1.0.1'
+pod 'WHRoundedImageView'
 ```
 
-Notice that you need Cocoapods version from 0.36, and you need to set iOS 8.0 support. Add the following to the top of your Podfile:
-
-```
-platform :ios, '8.0'
-use_frameworks!
-```
+##### *For All* (including iOS 8.0 +)
+You can copy ```WHRoundedImageView.swift``` directly into your project.
 
 ## Usage
-Just draw an **UIImageView** and set it's class to **RoundImageView** in _Identity Inspector_, and use it as a normal UIImageView. Live preview is fully supported, so you can preview in Interface Builder.
+1. Set class to **RoundImageView** in _Identity Inspector_, and use it as a normal UIImageView. 
+2. Set properties below:
+    - ```radiusRatio```  _Default: 0.0_
+    - ```borderWidth```  _Default: 0.0_
+    - ```borderColor```  _Default: blackColor_
 
-## Demo App
-Check out the [Quotes Demo App](https://github.com/ravero/QuotesApp) for an example on how use RoundImageView.
+## Credits
+Fork of [ravero/RoundImageView](https://github.com/ravero/RoundImageView)
