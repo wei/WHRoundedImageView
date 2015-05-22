@@ -13,7 +13,7 @@ import Foundation
     
     // MARK: - Properties
     
-    @IBInspectable public var radiusRatio: CGFloat = 0.5 {
+    @IBInspectable public var radiusRatio: CGFloat = 0.0 {
         didSet {
             self.layer.cornerRadius = self.bounds.size.width * radiusRatio
         }

@@ -1,4 +1,7 @@
 # WHRoundedImageView
+
+![WHRoundedImageView](/WHRoundedImageViewDemo.gif "WHRoundedImageView")
+
 WHRoundedImageView is a plain simple _swift_ component that extends a UIImageView. It allows you to add Radius and Border to an image directly in Interface Builder.
 
 *Live preview is fully supported, so you can preview in Interface Builder.*
@@ -17,7 +20,7 @@ You can copy ```WHRoundedImageView.swift``` directly into your project.
 ## Usage
 1. Set class to **RoundImageView** in _Identity Inspector_, and use it as a normal UIImageView. 
 2. Set properties below:
-    - ```radiusRatio```  _Default: 0.5 (Fully rounded for square images)_
+    - ```radiusRatio```  _Default: 0.0_ (0.5 = fully rounded corners square images)
     - ```borderWidth```  _Default: 0.0_
     - ```borderColor```  _Default: blackColor_
 
