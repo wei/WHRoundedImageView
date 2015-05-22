@@ -4,7 +4,7 @@ WHRoundedImageView is a plain simple _swift_ component that extends a UIImageVie
 
 *Live preview is fully supported.*
 
-![WHRoundedImageView](/WHRoundedImageViewDemo.gif?raw=true "WHRoundedImageView")
+![WHRoundedImageView](WHRoundedImageViewDemo.gif "WHRoundedImageView")
 
 ## Installation
 ##### *For iOS 8.0+*
@@ -23,6 +23,9 @@ You can copy ```WHRoundedImageView.swift``` directly into your project.
     - ```radiusRatio```  _Default: 0.0_ (0.5 = fully rounded corners for square images)
     - ```borderWidth```  _Default: 0.0_
     - ```borderColor```  _Default: blackColor_
+
+## Author
+**Wei He** _wei@weispot.com_
 
 ## Credits
 Fork of [ravero/RoundImageView](https://github.com/ravero/RoundImageView)
