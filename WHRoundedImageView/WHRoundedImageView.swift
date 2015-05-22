@@ -58,7 +58,6 @@ import Foundation
     // MARK: - Support Methods
     
     func setup() {
-        self.layer.cornerRadius = self.bounds.size.width / 2
         self.layer.masksToBounds = true
     }
     
