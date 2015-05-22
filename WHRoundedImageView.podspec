@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WHRoundedImageView"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "A derived UIImageView class to render a rounded image with radius and border options."
   s.homepage         = "https://github.com/ddhhz/WHRoundedImageView"
   s.license          = 'MIT'
